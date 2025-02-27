@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/form1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        body{
+            background-image: url("https://tse3.mm.bing.net/th?id=OIF.ikGtQXSpv6vPJuuRT%2b8O8g&pid=Api&P=0&h=180");
+           background-size: cover;
+            background-color: rgb(13, 157, 204);
+            background-repeat:no-repeat;
+            text-align: center;
+            font-size: larger;
+            color:dark black;
+            font-style: bold;
+        }
+        button{
+            background-color: rgb(92, 72, 221);
+            font-size: large;
+        }
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <img src="./sbi_files/th" style="text-align:center" ;="">
+        
+        <h2>PERSONAL DETAILS</h2>
+        <label>First-Name:</label>
+        <input type="text"><br><br>
+        <label>Last-Name:</label>
+        <input type="text"><br><br>
+        <label>Date of birth:</label>
+        <input type="date"><br><br>
+        <label>Father-Name:</label>
+        <input type="text"><br><br>
+        <label>Mother-Name:</label>
+        <input type="text"><br><br>
+        <h3>gender</h3>
+        <label>Male:</label>
+        <input type="checkbox">
+        <label>Female:</label>
+        <input type="checkbox"><br><br>
+        <h1>Address</h1>
+        <label>Village:</label>
+        <input type="search"><br><br>
+        <label>Mandal:</label>
+        <input type="search"><br><br>
+        <label>District:</label>
+        <input type="text"><br><br>
+        <label>State:</label>
+        <input type="search"><br><br>
+        <label>Pincode:</label>
+        <input type="number"><br><br>
+        <label>Country:</label>
+        <input type="search"><br><br>
+        <h1>Account - Details</h1>
+        <label>Adhar-Card Number:</label>
+        <input type="number"><br><br>
+        <label>Accountant-Phone number:</label>
+        <input type="number"><br><br>
+        <label>E-mail:</label>
+        <input type="email"><br><br>
+        <label>Password:</label>
+        <input type="password"><br><br>
+        <h1>Bank-Details</h1>
+        <label>Branch:</label>
+        <input type="text"><br><br>
+        <label>IFSC Code:</label>
+        <input type="text"><br><br>
+        <label>Account-Number:</label>
+<h1>Upload</h1>
+<label>Pass-Size Photo</label>
+        <input type="file"><br><br>
+        <label>Adhar-Card:</label>
+        <input type="file"><br><br>
+        <label>Ration-Card:</label>
+        <input type="file"><br><br>
+        <button type="button" onclick="document.write(&#39;your Details has been subitted successfully&#39;)">SUBMIT</button>
+        <script type="text/javascript">
+        window.confirm("Are you intrested");
+    </script>
+        
+    </form>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
